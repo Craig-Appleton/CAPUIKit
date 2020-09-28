@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF92D7942236B8F700229CC8 /* CAPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF92D78A2236B8F700229CC8 /* CAPUIKit.framework */; };
+		EF92D7992236B8F700229CC8 /* CAPUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92D7982236B8F700229CC8 /* CAPUIKitTests.swift */; };
+		EF92D79B2236B8F700229CC8 /* CAPUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EF92D78D2236B8F700229CC8 /* CAPUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF92D7A82236B9AA00229CC8 /* XIBLocalizableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92D7A62236B9AA00229CC8 /* XIBLocalizableProtocol.swift */; };
+		EF92D7A92236B9AA00229CC8 /* LocalizableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92D7A72236B9AA00229CC8 /* LocalizableProtocol.swift */; };
+		EF92D7B02236B9FA00229CC8 /* UIBarButtonItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92D7AB2236B9FA00229CC8 /* UIBarButtonItemExtensions.swift */; };
+		EF92D7B12236B9FA00229CC8 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92D7AC2236B9FA00229CC8 /* StringExtensions.swift */; };
+		EF92D7B22236B9FA00229CC8 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92D7AD2236B9FA00229CC8 /* UILabelExtensions.swift */; };
+		EF92D7B32236B9FA00229CC8 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92D7AE2236B9FA00229CC8 /* UIButtonExtensions.swift */; };
+		EF92D7B42236B9FA00229CC8 /* UINavigationItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92D7AF2236B9FA00229CC8 /* UINavigationItemExtensions.swift */; };
+		EF9E36622237A10500723AB4 /* TableViewSectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E365F2237A10500723AB4 /* TableViewSectionProtocol.swift */; };
+		EF9E36632237A10500723AB4 /* TableViewDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E36602237A10500723AB4 /* TableViewDataProtocol.swift */; };
+		EF9E36642237A10500723AB4 /* TableViewRowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E36612237A10500723AB4 /* TableViewRowProtocol.swift */; };
+		EF9E36712237A16E00723AB4 /* StateDrivenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E36702237A16E00723AB4 /* StateDrivenTableViewController.swift */; };
+		EF9EE4972248D3650033BC8F /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE4962248D3650033BC8F /* SwitchTableViewCell.swift */; };
+		EF9EE4992248D3D50033BC8F /* UISwitchExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE4982248D3D50033BC8F /* UISwitchExtensions.swift */; };
+		EFAF78412240E4BC0016EFFA /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF78402240E4BB0016EFFA /* UITableViewExtensions.swift */; };
+		EFAF78472240E4EB0016EFFA /* TableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF78442240E4EB0016EFFA /* TableViewData.swift */; };
+		EFAF78482240E4EB0016EFFA /* TableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF78452240E4EB0016EFFA /* TableViewRow.swift */; };
+		EFAF78492240E4EB0016EFFA /* TableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF78462240E4EB0016EFFA /* TableViewSection.swift */; };
+		EFAF784C2240E52B0016EFFA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF784B2240E52B0016EFFA /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF92D7952236B8F700229CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF92D7812236B8F700229CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF92D7892236B8F700229CC8;
+			remoteInfo = CAPUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF92D78A2236B8F700229CC8 /* CAPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF92D78D2236B8F700229CC8 /* CAPUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAPUIKit.h; sourceTree = "<group>"; };
+		EF92D78E2236B8F700229CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF92D7932236B8F700229CC8 /* CAPUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAPUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF92D7982236B8F700229CC8 /* CAPUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPUIKitTests.swift; sourceTree = "<group>"; };
+		EF92D79A2236B8F700229CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF92D7A62236B9AA00229CC8 /* XIBLocalizableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XIBLocalizableProtocol.swift; sourceTree = "<group>"; };
+		EF92D7A72236B9AA00229CC8 /* LocalizableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableProtocol.swift; sourceTree = "<group>"; };
+		EF92D7AB2236B9FA00229CC8 /* UIBarButtonItemExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtensions.swift; sourceTree = "<group>"; };
+		EF92D7AC2236B9FA00229CC8 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		EF92D7AD2236B9FA00229CC8 /* UILabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		EF92D7AE2236B9FA00229CC8 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		EF92D7AF2236B9FA00229CC8 /* UINavigationItemExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationItemExtensions.swift; sourceTree = "<group>"; };
+		EF9E365F2237A10500723AB4 /* TableViewSectionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSectionProtocol.swift; sourceTree = "<group>"; };
+		EF9E36602237A10500723AB4 /* TableViewDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataProtocol.swift; sourceTree = "<group>"; };
+		EF9E36612237A10500723AB4 /* TableViewRowProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewRowProtocol.swift; sourceTree = "<group>"; };
+		EF9E36702237A16E00723AB4 /* StateDrivenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateDrivenTableViewController.swift; sourceTree = "<group>"; };
+		EF9EE4962248D3650033BC8F /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		EF9EE4982248D3D50033BC8F /* UISwitchExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchExtensions.swift; sourceTree = "<group>"; };
+		EFAF78402240E4BB0016EFFA /* UITableViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		EFAF78442240E4EB0016EFFA /* TableViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewData.swift; sourceTree = "<group>"; };
+		EFAF78452240E4EB0016EFFA /* TableViewRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewRow.swift; sourceTree = "<group>"; };
+		EFAF78462240E4EB0016EFFA /* TableViewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSection.swift; sourceTree = "<group>"; };
+		EFAF784B2240E52B0016EFFA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF92D7872236B8F700229CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF92D7902236B8F700229CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF92D7942236B8F700229CC8 /* CAPUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF92D7802236B8F700229CC8 = {
+			isa = PBXGroup;
+			children = (
+				EF92D78C2236B8F700229CC8 /* CAPUIKit */,
+				EF92D7972236B8F700229CC8 /* CAPUIKitTests */,
+				EF92D78B2236B8F700229CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF92D78B2236B8F700229CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF92D78A2236B8F700229CC8 /* CAPUIKit.framework */,
+				EF92D7932236B8F700229CC8 /* CAPUIKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF92D78C2236B8F700229CC8 /* CAPUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EF92D7AA2236B9AD00229CC8 /* Extensions */,
+				EFAF78422240E4EB0016EFFA /* Models */,
+				EF92D7A42236B95E00229CC8 /* Protocols */,
+				EF9E366D2237A13600723AB4 /* View Controllers */,
+				EF9EE4942248D3430033BC8F /* Views */,
+				EF92D78D2236B8F700229CC8 /* CAPUIKit.h */,
+				EF92D78E2236B8F700229CC8 /* Info.plist */,
+			);
+			path = CAPUIKit;
+			sourceTree = "<group>";
+		};
+		EF92D7972236B8F700229CC8 /* CAPUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF92D7982236B8F700229CC8 /* CAPUIKitTests.swift */,
+				EF92D79A2236B8F700229CC8 /* Info.plist */,
+			);
+			path = CAPUIKitTests;
+			sourceTree = "<group>";
+		};
+		EF92D7A42236B95E00229CC8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EF9E365E2237A0E500723AB4 /* Table View */,
+				EF92D7C52236C27200229CC8 /* Localization */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EF92D7AA2236B9AD00229CC8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF92D7C92236C2A000229CC8 /* Foundation */,
+				EF92D7C82236C29500229CC8 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF92D7C52236C27200229CC8 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				EF92D7A72236B9AA00229CC8 /* LocalizableProtocol.swift */,
+				EF92D7A62236B9AA00229CC8 /* XIBLocalizableProtocol.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		EF92D7C82236C29500229CC8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EF92D7AB2236B9FA00229CC8 /* UIBarButtonItemExtensions.swift */,
+				EF92D7AE2236B9FA00229CC8 /* UIButtonExtensions.swift */,
+				EF92D7AD2236B9FA00229CC8 /* UILabelExtensions.swift */,
+				EF92D7AF2236B9FA00229CC8 /* UINavigationItemExtensions.swift */,
+				EFAF78402240E4BB0016EFFA /* UITableViewExtensions.swift */,
+				EF9EE4982248D3D50033BC8F /* UISwitchExtensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EF92D7C92236C2A000229CC8 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EF92D7AC2236B9FA00229CC8 /* StringExtensions.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		EF9E365E2237A0E500723AB4 /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				EF9E36602237A10500723AB4 /* TableViewDataProtocol.swift */,
+				EF9E36612237A10500723AB4 /* TableViewRowProtocol.swift */,
+				EF9E365F2237A10500723AB4 /* TableViewSectionProtocol.swift */,
+			);
+			path = "Table View";
+			sourceTree = "<group>";
+		};
+		EF9E366D2237A13600723AB4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF9E366F2237A15F00723AB4 /* Table View */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EF9E366F2237A15F00723AB4 /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				EF9E36702237A16E00723AB4 /* StateDrivenTableViewController.swift */,
+				EFAF784B2240E52B0016EFFA /* TableViewController.swift */,
+			);
+			path = "Table View";
+			sourceTree = "<group>";
+		};
+		EF9EE4942248D3430033BC8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EE4952248D3510033BC8F /* Table View Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF9EE4952248D3510033BC8F /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EE4962248D3650033BC8F /* SwitchTableViewCell.swift */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		EFAF78422240E4EB0016EFFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF78432240E4EB0016EFFA /* Table View */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFAF78432240E4EB0016EFFA /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF78442240E4EB0016EFFA /* TableViewData.swift */,
+				EFAF78452240E4EB0016EFFA /* TableViewRow.swift */,
+				EFAF78462240E4EB0016EFFA /* TableViewSection.swift */,
+			);
+			path = "Table View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EF92D7852236B8F700229CC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF92D79B2236B8F700229CC8 /* CAPUIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EF92D7892236B8F700229CC8 /* CAPUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF92D79E2236B8F700229CC8 /* Build configuration list for PBXNativeTarget "CAPUIKit" */;
+			buildPhases = (
+				EF92D7852236B8F700229CC8 /* Headers */,
+				EF92D7862236B8F700229CC8 /* Sources */,
+				EF92D7872236B8F700229CC8 /* Frameworks */,
+				EF92D7882236B8F700229CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAPUIKit;
+			productName = CAPUIKit;
+			productReference = EF92D78A2236B8F700229CC8 /* CAPUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF92D7922236B8F700229CC8 /* CAPUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF92D7A12236B8F700229CC8 /* Build configuration list for PBXNativeTarget "CAPUIKitTests" */;
+			buildPhases = (
+				EF92D78F2236B8F700229CC8 /* Sources */,
+				EF92D7902236B8F700229CC8 /* Frameworks */,
+				EF92D7912236B8F700229CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF92D7962236B8F700229CC8 /* PBXTargetDependency */,
+			);
+			name = CAPUIKitTests;
+			productName = CAPUIKitTests;
+			productReference = EF92D7932236B8F700229CC8 /* CAPUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF92D7812236B8F700229CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CAP;
+				TargetAttributes = {
+					EF92D7892236B8F700229CC8 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					EF92D7922236B8F700229CC8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EF92D7842236B8F700229CC8 /* Build configuration list for PBXProject "CAPUIKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF92D7802236B8F700229CC8;
+			productRefGroup = EF92D78B2236B8F700229CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF92D7892236B8F700229CC8 /* CAPUIKit */,
+				EF92D7922236B8F700229CC8 /* CAPUIKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF92D7882236B8F700229CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF92D7912236B8F700229CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF92D7862236B8F700229CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF92D7B12236B9FA00229CC8 /* StringExtensions.swift in Sources */,
+				EF92D7A92236B9AA00229CC8 /* LocalizableProtocol.swift in Sources */,
+				EF92D7B42236B9FA00229CC8 /* UINavigationItemExtensions.swift in Sources */,
+				EFAF78492240E4EB0016EFFA /* TableViewSection.swift in Sources */,
+				EFAF78412240E4BC0016EFFA /* UITableViewExtensions.swift in Sources */,
+				EF9E36632237A10500723AB4 /* TableViewDataProtocol.swift in Sources */,
+				EF9EE4972248D3650033BC8F /* SwitchTableViewCell.swift in Sources */,
+				EF9E36622237A10500723AB4 /* TableViewSectionProtocol.swift in Sources */,
+				EF92D7B22236B9FA00229CC8 /* UILabelExtensions.swift in Sources */,
+				EFAF78472240E4EB0016EFFA /* TableViewData.swift in Sources */,
+				EFAF78482240E4EB0016EFFA /* TableViewRow.swift in Sources */,
+				EF92D7B32236B9FA00229CC8 /* UIButtonExtensions.swift in Sources */,
+				EFAF784C2240E52B0016EFFA /* TableViewController.swift in Sources */,
+				EF92D7B02236B9FA00229CC8 /* UIBarButtonItemExtensions.swift in Sources */,
+				EF9E36642237A10500723AB4 /* TableViewRowProtocol.swift in Sources */,
+				EF9EE4992248D3D50033BC8F /* UISwitchExtensions.swift in Sources */,
+				EF9E36712237A16E00723AB4 /* StateDrivenTableViewController.swift in Sources */,
+				EF92D7A82236B9AA00229CC8 /* XIBLocalizableProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF92D78F2236B8F700229CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF92D7992236B8F700229CC8 /* CAPUIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF92D7962236B8F700229CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF92D7892236B8F700229CC8 /* CAPUIKit */;
+			targetProxy = EF92D7952236B8F700229CC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF92D79C2236B8F700229CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF92D79D2236B8F700229CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF92D79F2236B8F700229CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CAPUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cap.CAPUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF92D7A02236B8F700229CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CAPUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cap.CAPUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF92D7A22236B8F700229CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAPUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cap.CAPUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF92D7A32236B8F700229CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAPUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cap.CAPUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF92D7842236B8F700229CC8 /* Build configuration list for PBXProject "CAPUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF92D79C2236B8F700229CC8 /* Debug */,
+				EF92D79D2236B8F700229CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF92D79E2236B8F700229CC8 /* Build configuration list for PBXNativeTarget "CAPUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF92D79F2236B8F700229CC8 /* Debug */,
+				EF92D7A02236B8F700229CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF92D7A12236B8F700229CC8 /* Build configuration list for PBXNativeTarget "CAPUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF92D7A22236B8F700229CC8 /* Debug */,
+				EF92D7A32236B8F700229CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF92D7812236B8F700229CC8 /* Project object */;
+}

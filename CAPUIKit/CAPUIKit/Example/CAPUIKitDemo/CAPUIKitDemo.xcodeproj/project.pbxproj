@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAF785A2240F4D10016EFFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF78592240F4D10016EFFA /* AppDelegate.swift */; };
+		EFAF785C2240F4D10016EFFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF785B2240F4D10016EFFA /* ViewController.swift */; };
+		EFAF785F2240F4D10016EFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAF785D2240F4D10016EFFA /* Main.storyboard */; };
+		EFAF78612240F4D50016EFFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAF78602240F4D50016EFFA /* Assets.xcassets */; };
+		EFAF78642240F4D50016EFFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAF78622240F4D50016EFFA /* LaunchScreen.storyboard */; };
+		EFAF786F2240F4D50016EFFA /* CAPUIKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF786E2240F4D50016EFFA /* CAPUIKitDemoTests.swift */; };
+		EFAF788A2240FB610016EFFA /* CAPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAF78882240F6960016EFFA /* CAPUIKit.framework */; };
+		EFAF788B2240FB610016EFFA /* CAPUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EFAF78882240F6960016EFFA /* CAPUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAF786B2240F4D50016EFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAF784E2240F4D10016EFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAF78552240F4D10016EFFA;
+			remoteInfo = CAPUIKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFAF788C2240FB620016EFFA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EFAF788B2240FB610016EFFA /* CAPUIKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EFAF78562240F4D10016EFFA /* CAPUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAPUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAF78592240F4D10016EFFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAF785B2240F4D10016EFFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFAF785E2240F4D10016EFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAF78602240F4D50016EFFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAF78632240F4D50016EFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAF78652240F4D50016EFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAF786A2240F4D50016EFFA /* CAPUIKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAPUIKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAF786E2240F4D50016EFFA /* CAPUIKitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPUIKitDemoTests.swift; sourceTree = "<group>"; };
+		EFAF78702240F4D50016EFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAF78882240F6960016EFFA /* CAPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CAPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAF78532240F4D10016EFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAF788A2240FB610016EFFA /* CAPUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAF78672240F4D50016EFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAF784D2240F4D10016EFFA = {
+			isa = PBXGroup;
+			children = (
+				EFAF78582240F4D10016EFFA /* CAPUIKitDemo */,
+				EFAF786D2240F4D50016EFFA /* CAPUIKitDemoTests */,
+				EFAF78572240F4D10016EFFA /* Products */,
+				EFAF78822240F5610016EFFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAF78572240F4D10016EFFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF78562240F4D10016EFFA /* CAPUIKitDemo.app */,
+				EFAF786A2240F4D50016EFFA /* CAPUIKitDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAF78582240F4D10016EFFA /* CAPUIKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF78592240F4D10016EFFA /* AppDelegate.swift */,
+				EFAF785B2240F4D10016EFFA /* ViewController.swift */,
+				EFAF785D2240F4D10016EFFA /* Main.storyboard */,
+				EFAF78602240F4D50016EFFA /* Assets.xcassets */,
+				EFAF78622240F4D50016EFFA /* LaunchScreen.storyboard */,
+				EFAF78652240F4D50016EFFA /* Info.plist */,
+			);
+			path = CAPUIKitDemo;
+			sourceTree = "<group>";
+		};
+		EFAF786D2240F4D50016EFFA /* CAPUIKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF786E2240F4D50016EFFA /* CAPUIKitDemoTests.swift */,
+				EFAF78702240F4D50016EFFA /* Info.plist */,
+			);
+			path = CAPUIKitDemoTests;
+			sourceTree = "<group>";
+		};
+		EFAF78822240F5610016EFFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF78882240F6960016EFFA /* CAPUIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAF78552240F4D10016EFFA /* CAPUIKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAF78732240F4D50016EFFA /* Build configuration list for PBXNativeTarget "CAPUIKitDemo" */;
+			buildPhases = (
+				EFAF78522240F4D10016EFFA /* Sources */,
+				EFAF78532240F4D10016EFFA /* Frameworks */,
+				EFAF78542240F4D10016EFFA /* Resources */,
+				EFAF788C2240FB620016EFFA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAPUIKitDemo;
+			productName = CAPUIKitDemo;
+			productReference = EFAF78562240F4D10016EFFA /* CAPUIKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAF78692240F4D50016EFFA /* CAPUIKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAF78762240F4D50016EFFA /* Build configuration list for PBXNativeTarget "CAPUIKitDemoTests" */;
+			buildPhases = (
+				EFAF78662240F4D50016EFFA /* Sources */,
+				EFAF78672240F4D50016EFFA /* Frameworks */,
+				EFAF78682240F4D50016EFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAF786C2240F4D50016EFFA /* PBXTargetDependency */,
+			);
+			name = CAPUIKitDemoTests;
+			productName = CAPUIKitDemoTests;
+			productReference = EFAF786A2240F4D50016EFFA /* CAPUIKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAF784E2240F4D10016EFFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CAP;
+				TargetAttributes = {
+					EFAF78552240F4D10016EFFA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EFAF78692240F4D50016EFFA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EFAF78552240F4D10016EFFA;
+					};
+				};
+			};
+			buildConfigurationList = EFAF78512240F4D10016EFFA /* Build configuration list for PBXProject "CAPUIKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAF784D2240F4D10016EFFA;
+			productRefGroup = EFAF78572240F4D10016EFFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAF78552240F4D10016EFFA /* CAPUIKitDemo */,
+				EFAF78692240F4D50016EFFA /* CAPUIKitDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAF78542240F4D10016EFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAF78642240F4D50016EFFA /* LaunchScreen.storyboard in Resources */,
+				EFAF78612240F4D50016EFFA /* Assets.xcassets in Resources */,
+				EFAF785F2240F4D10016EFFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAF78682240F4D50016EFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAF78522240F4D10016EFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAF785C2240F4D10016EFFA /* ViewController.swift in Sources */,
+				EFAF785A2240F4D10016EFFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAF78662240F4D50016EFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAF786F2240F4D50016EFFA /* CAPUIKitDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAF786C2240F4D50016EFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAF78552240F4D10016EFFA /* CAPUIKitDemo */;
+			targetProxy = EFAF786B2240F4D50016EFFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAF785D2240F4D10016EFFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAF785E2240F4D10016EFFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAF78622240F4D50016EFFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAF78632240F4D50016EFFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAF78712240F4D50016EFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAF78722240F4D50016EFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAF78742240F4D50016EFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAPUIKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cap.CAPUIKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFAF78752240F4D50016EFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAPUIKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cap.CAPUIKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFAF78772240F4D50016EFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAPUIKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cap.CAPUIKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAPUIKitDemo.app/CAPUIKitDemo";
+			};
+			name = Debug;
+		};
+		EFAF78782240F4D50016EFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAPUIKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cap.CAPUIKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAPUIKitDemo.app/CAPUIKitDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAF78512240F4D10016EFFA /* Build configuration list for PBXProject "CAPUIKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAF78712240F4D50016EFFA /* Debug */,
+				EFAF78722240F4D50016EFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAF78732240F4D50016EFFA /* Build configuration list for PBXNativeTarget "CAPUIKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAF78742240F4D50016EFFA /* Debug */,
+				EFAF78752240F4D50016EFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAF78762240F4D50016EFFA /* Build configuration list for PBXNativeTarget "CAPUIKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAF78772240F4D50016EFFA /* Debug */,
+				EFAF78782240F4D50016EFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAF784E2240F4D10016EFFA /* Project object */;
+}
